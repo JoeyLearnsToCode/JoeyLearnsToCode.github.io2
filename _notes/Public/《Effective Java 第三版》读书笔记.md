@@ -1185,17 +1185,17 @@ Type token               |  类型令牌      |  `String.class`
     ```
     
     静态属性的延迟初始化：借用一个静态内部类的私有静态属性可以方便做到延迟初始化，利用了Java类加载的机制。
-    
-```java
-private static class FieldHolder {
-    private static final FieldType field = computeFieldValue();
-}
 
-private static FieldType getField() {
-    return FieldHolder.field;
-}
-```
-    
+    ```java
+    private static class FieldHolder {
+        private static final FieldType field = computeFieldValue();
+    }
+
+    private static FieldType getField() {
+        return FieldHolder.field;
+    }
+    ```
+
 - **84. 不要依赖线程调度器**
     
     每个操作系统都有自己的独特的线程调度器，为了代码可移植，不应该让具体实现依赖某个特定操作系统的线程调度器。
