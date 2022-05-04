@@ -5,8 +5,6 @@ date : 01-02-2021
 Tags: Java,读书笔记
 ---
 
-# 《Effective Java 第三版》读书笔记
-
 [原书（非官方翻译）](https://wizardforcel.gitbooks.io/effective-java-3rd-chinese/content/)
 
 [原书附带源码](https://github.com/jbloch/effective-java-3e-source-code)
