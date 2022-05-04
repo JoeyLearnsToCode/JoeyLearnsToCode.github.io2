@@ -84,7 +84,7 @@ preferences:
 encoding: utf-8
 
 # Build settings
-theme: null
+theme: obsidian-theme
 plugins:
   - jekyll-feed 
   - jekyll-sitemap 
