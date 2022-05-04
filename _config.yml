@@ -28,7 +28,7 @@ url: "https://JoeyLearnsToCode.github.io/" # the base hostname & protocol for yo
 # your social media links etc
 #######################################################################
 
-heading: Digital Garden # Change this 
+heading: JoeyLearnsToCode # Change this 
 copyright:  
   year: 2022
   msg: JoeyLearnsToCode # This is a mandatory attribute for copyright to be displayed ; If deleting this, edit at footer layout.
